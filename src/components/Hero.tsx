@@ -1,4 +1,4 @@
-import LiveAICT from '../assets/LiveAiCT.svg';
+import LiveAICT from '../assets/LiveAiCT.png';
 import { Button } from "@/components/ui/button";
 import { BackgroundLines } from "./ui/background-lines";
 
