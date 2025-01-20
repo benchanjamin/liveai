@@ -1,12 +1,12 @@
-import AI from "@/assets/AI.png";
-import Blockchain from "@/assets/Blockchain.png";
-import FinTech from "@/assets/FinTech.png";
-import Desktop from "@/assets/Desktop.png";
-import Mobile from "@/assets/Mobile.png";
-import Game from "@/assets/Game.png";
-import Chart from "@/assets/Chart.png";
-import VirtualReality from "@/assets/Virtual Reality.png";
-import Topics from "@/assets/topics.png";
+import AI from '../assets/AI.png';
+import Blockchain from '../assets/Blockchain.png';
+import FinTech from '../assets/FinTech.png';
+import Desktop from '../assets/Desktop.png';
+import Mobile from '../assets/Mobile.png';
+import Game from '../assets/Game.png';
+import Chart from '../assets/Chart.png';
+import VirtualReality from '../assets/Virtual Reality.png';
+import Topics from '../assets/topics.png';
 
 export const Rules = () => {
     return (

@@ -1,4 +1,4 @@
-import LiveAILogo from "@/assets/LiveAICT.svg";
+import LiveAICT from '../assets/LiveAiCT.svg';
 import { Button } from "@/components/ui/button";
 import { BackgroundLines } from "./ui/background-lines";
 
@@ -9,7 +9,7 @@ export const Hero = () => {
         <div className="max-w-7xl mx-auto w-full space-y-8 text-center ">
           {/* Logo */}
           <img
-            src={LiveAILogo.src}
+            src={LiveAICT.src}
             alt="LiveAI Logo"
             className="w-full max-w-[600px] mx-auto transform hover:scale-105 transition-transform duration-300"
           />
