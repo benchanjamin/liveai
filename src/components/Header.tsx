@@ -3,7 +3,7 @@ import {Button} from "@/components/ui/button";
 import {HoverLink} from "@/components/header/HoverLink";
 import {MobileHamburgerButton} from "@/components/header/MobileHamburgerButton";
 import {MobileMenu} from "@/components/header/MobileMenu";
-import LiveAILogo from "@/assets/LiveAILogo.png";
+import LiveAILogo from "../assets/LiveAILogo.png";
 
 const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
