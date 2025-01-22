@@ -28,16 +28,16 @@ export const Hero = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
             <Button
               asChild
-              className="w-full sm:w-auto min-w-[200px] bg-blue-600 hover:bg-blue-700 text-white font-semibold py-6 relative overflow-hidden group/modal-btn"
+              className="w-full sm:w-auto min-w-[200px] bg-blue-600 hover:bg-blue-700 text-white font-semibold py-6 relative overflow-hidden group/modal-btn w-1/2 sm:w-auto"
             >
               <a
-                href="https://forms.gle/JxuXKLxxiTkS6ek78"
+                href="https://forms.gle/o466Mohw4zFeJmmi8"
                 target="_blank"
                 rel="noopener noreferrer"
                 
               >
-                <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
-                  Registration
+                <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500 w-1/2 sm:w-auto">
+                  Apply
                 </span>
                 <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-white z-20">
                   <span>📋</span>
@@ -46,14 +46,14 @@ export const Hero = () => {
             </Button>
             <Button
               asChild
-              className="w-full sm:w-auto min-w-[200px] bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-6 relative overflow-hidden group/modal-btn"
+              className="w-full sm:w-auto min-w-[200px] bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-6 relative overflow-hidden group/modal-btn w-1/2 sm:w-auto"
             >
               <a
                 href="https://discord.gg/KYKMQfbzAF"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
+                <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500 w-1/2 sm:w-auto">
                   Join Discord
                 </span>
                 <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-white z-20">
@@ -63,14 +63,14 @@ export const Hero = () => {
             </Button>
             <Button
               asChild
-              className="w-full sm:w-auto min-w-[200px] bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-6 relative overflow-hidden group/modal-btn"
+              className="w-full sm:w-auto min-w-[200px] bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-6 relative overflow-hidden group/modal-btn w-1/2 sm:w-auto"
             >
               <a
                 href="https://liveai-ivyplus-2025.devpost.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
+                <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500 w-1/2 sm:w-auto">
                     Devpost
                 </span>
                 <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-white z-20">
