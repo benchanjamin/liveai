@@ -19,9 +19,18 @@ export const Hero = () => {
             <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 text-transparent bg-clip-text leading-relaxed py-2">
               Design ➔ Develop ➔ Demo
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 font-medium">
+            <br />
+            <span className="text-xl md:text-2xl text-gray-600 font-medium">
               2025 February 21-23
-            </p>
+            </span>
+            <br />
+            <span className="text-xl md:text-2xl text-[#A51C30] font-medium">
+              Harvard University
+            </span>
+            <br />
+            <span className="text-xl md:text-2xl text-[#00539B] font-medium">
+              Duke University
+            </span>
           </div>
 
           {/* Buttons */}
