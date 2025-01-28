@@ -1,4 +1,4 @@
-import LiveAICT from '../assets/LiveAiCT.png';
+import LiveAICT from "../assets/LiveAiCT.png";
 import { Button } from "@/components/ui/button";
 import { BackgroundLines } from "./ui/background-lines";
 
@@ -20,7 +20,7 @@ export const Hero = () => {
               Design ➔ Develop ➔ Demo
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 font-medium">
-              Coming soon... February 2025!
+              2025 February 21-23
             </p>
           </div>
 
@@ -34,7 +34,6 @@ export const Hero = () => {
                 href="https://forms.gle/o466Mohw4zFeJmmi8"
                 target="_blank"
                 rel="noopener noreferrer"
-                
               >
                 <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500 w-1/2 sm:w-auto">
                   Apply
@@ -71,7 +70,7 @@ export const Hero = () => {
                 rel="noopener noreferrer"
               >
                 <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500 w-1/2 sm:w-auto">
-                    Devpost
+                  Devpost
                 </span>
                 <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-white z-20">
                   <span>🏆</span>
