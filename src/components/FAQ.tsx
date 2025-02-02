@@ -30,7 +30,7 @@ export const FAQ = () => {
             question: "If I visit the host campuses, when and where should I participate?",
             answer: (
                 <>
-                    <p>LIVE AI starts with check-ins on 2025 February 22 (Saturday) at 10:00 am EDT and ends on 2025 February 23 (Sunday) at 3:00 pm EDT. This schedule is largely the same for both host campuses. Coding will start on 2025 February 22 (Saturday) at 12:00 pm (noon) EDT and end on 2025 February 23 (Sunday) at 12:00 pm (noon) EDT.</p>
+                    <p>LIVE AI starts with check-ins on 2025 February 22 (Saturday) at 10:00 am EST and ends on 2025 February 23 (Sunday) at 3:00 pm EST. This schedule is largely the same for both host campuses. Coding will start on 2025 February 22 (Saturday) at 12:00 pm (noon) EST and end on 2025 February 23 (Sunday) at 12:00 pm (noon) EST.</p>
                     <p className="mt-2">For participants at Duke University, you will be at CIEMAS (101 Science Dr, Durham, NC 27705).</p>
                     <p className="mt-2">For participants at Harvard University, you will be at the SOCH (59 Shepard St, Cambridge, MA 02138).</p>
                     <p className="mt-2">For online participants, we will interact with you on our <a href="https://discord.gg/KYKMQfbzAF" className="text-blue-600 hover:underline">Discord</a>, and we have activities that encourage onsite and online participants to have fun with each other. Last time, we hosted a cross-campus scavenger hunt. Check out our <a href="https://devpost.com/software/cross-campus-scavenger-hunt-champion" className="text-blue-600 hover:underline">winners</a>!</p>
@@ -64,6 +64,7 @@ export const FAQ = () => {
                     <p>We welcome all software and hardware hacks that align with our three themes: artificial intelligence, blockchain / web3, and financial technology.</p>
                     <p className="mt-2">On 2025 February 23 (Sunday), at both host campuses, we will award prizes to the top teams in each of our three themes.</p>
                     <p className="mt-2">2025 March 9 (Sunday), we will award online international prizes to our online winners, including the top teams in each of our three themes.</p>
+                    <p className="mt-2">The video submission deadline is <strong>2025 February 23 (Sunday) at 12:00 pm (noon) EST.</strong></p>
                     <p className="mt-2">You can also check our <a href="https://liveai-ivyplus-2025.devpost.com" className="text-blue-600 hover:underline">Devpost</a> or our <a href="https://liveaiglobal.com/#prizes" className="text-blue-600 hover:underline">prizes section</a> to see what to build if you want to win specific prizes offered by our sponsors.</p>
                 </>
             )
