@@ -24,8 +24,8 @@ export const Rules = () => {
                                 <div className="flex-1 flex items-center">
                                     <img src={AI.src} alt="AI" width={115} height={115} />
                                 </div>
-                                <div className="flex-1 flex items-center">
-                                    <p className="text-lg font-medium text-white">Artificial Intelligence</p>
+                                <div className="flex-1 flex items-center justify-center w-full">
+                                    <p className="text-lg font-medium text-white text-center">Artificial Intelligence</p>
                                 </div>
                             </div>
                             <div className="bg-gradient-to-r from-[#197280] to-[#0E2080] flex flex-col justify-between items-center p-4 h-[210px] w-[210px] rounded-2xl mx-auto">
@@ -88,25 +88,25 @@ export const Rules = () => {
                         </p>
 
                         <div className="topics-container flex flex-wrap justify-center gap-4 mb-8">
-                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600">
+                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600 text-center">
                                 Art and Music
                             </div>
-                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600">
+                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600 text-center">
                                 Athletics and Sports
                             </div>
-                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600">
+                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600 text-center">
                                 Civic and Politics
                             </div>
-                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600">
+                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600 text-center">
                                 Environment and Green Initiatives
                             </div>
-                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600">
+                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600 text-center">
                                 Health and Medicine
                             </div>
-                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600">
+                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600 text-center">
                                 Finance and Economics
                             </div>
-                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600">
+                            <div className="border-2 border-red-600 rounded-full px-6 py-2 text-red-600 text-center">
                                 Social and Empowerment
                             </div>
                         </div>

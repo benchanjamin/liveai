@@ -17,7 +17,7 @@ export const Schedule = () => {
                         <img 
                             src={HackathonImage.src} 
                             alt="Hackathon Event" 
-                            className="rounded-lg shadow-xl max-w-full h-auto"
+                            className="rounded-lg shadow-xl w-full h-auto"
                         />
                     </div>
                     <div className="lg:w-1/2 space-y-6">
