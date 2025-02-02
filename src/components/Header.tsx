@@ -37,7 +37,7 @@ export const Header = () => {
             <nav className="z-50 fixed flex flex-row h-[60px] w-full items-center justify-center duration-300 ease-out navM:h-[114px] bg-white shadow-md">
                 <div className="mx-4 flex w-full max-w-[630px] flex-row justify-between py-[15px] md:mx-0 lg:max-w-[1440px] lg:px-[75px] navM:gap-[53px] navM:py-[30.5px]">
                     <a href="/" className="z-50 relative aspect-[421/96] h-[50px] flex items-center justify-start">
-                        <img src={LiveAILogo.src} alt="Live AI Logo" width={48} height={48}/>
+                        <img src={LiveAILogo.src} alt="LIVE AI Logo" width={48} height={48}/>
                     </a>
 
                     <div className="flex grow flex-row items-center justify-end gap-[20px] navL:gap-[26px]">

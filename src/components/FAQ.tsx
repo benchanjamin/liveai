@@ -20,7 +20,7 @@ export const FAQ = () => {
             question: "What is the registration process like?",
             answer: (
                 <>
-                    <p>You'll need to join our <a href="https://discord.gg/KYKMQfbzAF" className="text-blue-600 hover:underline">Discord</a>, <a href="https://liveai-ivyplus-2025.devpost.com" className="text-blue-600 hover:underline">Devpost</a>, and fill out this <a href="https://forms.gle/JxuXKLxxiTkS6ek78" className="text-blue-600 hover:underline" target="_blank">interest form</a>.</p>
+                    <p>You'll need to join our <a href="https://discord.gg/KYKMQfbzAF" className="text-blue-600 hover:underline">Discord</a>, <a href="https://liveai-ivyplus-2025.devpost.com" className="text-blue-600 hover:underline">Devpost</a>, and fill out this <a href="https://forms.gle/o466Mohw4zFeJmmi8" className="text-blue-600 hover:underline" target="_blank">application form</a>.</p>
                     <p className="mt-2">If you are an aspiring creative, developer, or entrepreneur who is 13 years or older, then you are eligible to join LIVE AI Global!</p>
                     <p className="mt-2">If you are 18 years or older, then you may also join LIVE AI Duke or LIVE AI Harvard by traveling to our host campuses. All LIVE AI participants are automatically enrolled into LIVE AI Global.</p>
                 </>

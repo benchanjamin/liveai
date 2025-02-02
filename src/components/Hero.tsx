@@ -4,13 +4,13 @@ import { BackgroundLines } from "./ui/background-lines";
 
 export const Hero = () => {
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-white to-gray-50 px-4">
-      <BackgroundLines className="flex items-center justify-center w-full flex-col px-4">
-        <div className="max-w-7xl mx-auto w-full space-y-8 text-center ">
+    <section className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-white to-gray-50">
+      <BackgroundLines className="flex items-center justify-center w-full min-h-screen flex-col">
+        <div className="max-w-7xl mx-auto w-full space-y-8 text-center px-4">
           {/* Logo */}
           <img
             src={LiveAICT.src}
-            alt="LiveAI Logo"
+            alt="LIVE AI Logo"
             className="w-full max-w-[600px] mx-auto transform hover:scale-105 transition-transform duration-300"
           />
 
