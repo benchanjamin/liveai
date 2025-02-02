@@ -12,15 +12,15 @@ export const Schedule = () => {
     return (
         <section id="events" className="py-20 bg-gray-50">
             <div className="container mx-auto px-4">
-                <div className="flex flex-col lg:flex-row items-center gap-12">
-                    <div className="lg:w-1/2">
+                <div className="flex flex-col xl:flex-row items-center gap-12">
+                    <div className="w-full xl:w-1/2">
                         <img 
                             src={HackathonImage.src} 
                             alt="Hackathon Event" 
                             className="rounded-lg shadow-xl w-full h-auto"
                         />
                     </div>
-                    <div className="lg:w-1/2 space-y-6">
+                    <div className="w-full xl:w-1/2 space-y-6">
                         <h2 className="text-4xl font-bold text-gray-900">Schedule</h2>
                         <div className="space-y-4">
                             {events.map((item, index) => (
