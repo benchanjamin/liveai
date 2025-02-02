@@ -80,7 +80,7 @@ export const FAQ = () => {
         {
             question: "How much does it cost to attend LIVE AI?",
             answer: (
-                <p>LIVE AI is completely free to attend! We will provide <a href="https://instagram.com/p/DBoySCXvvJP" className="text-blue-600 hover:underline">the best food and beverages</a>, snacks, shirts, and prizes.</p>
+                <p>LIVE AI is completely free to attend! We will provide the best food and beverages, snacks, shirts, and prizes.</p>
             )
         },
         {
