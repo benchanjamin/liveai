@@ -5,10 +5,12 @@ import UniversalAIUniversity from "@/assets/2025SponsorsPartnersLogos/Universal 
 import SuperAI from "@/assets/2025SponsorsPartnersLogos/SuperAI.png";
 import TXAI from "@/assets/2025SponsorsPartnersLogos/Texas AI Association.png";
 import AIConnex from "@/assets/2025SponsorsPartnersLogos/AI CONNEX.jpg";
-import VCArnea from "@/assets/2025SponsorsPartnersLogos/VC Arena.png";
+import VCArnea from "@/assets/2025SponsorsPartnersLogos/VC ARENA.png";
 import Yottatrend from "@/assets/2025SponsorsPartnersLogos/Yottatrend.png";
 import NextGen from "@/assets/2025SponsorsPartnersLogos/NextGen.png";
 import Chymira from "@/assets/2025SponsorsPartnersLogos/Chymira.svg";
+import BankSocial from "@/assets/2025SponsorsPartnersLogos/BankSocial.png";
+import ConvergeAccelerator from "@/assets/2025SponsorsPartnersLogos/Converge Logo light background green.png";
 import PreviousSponsors from "@/assets/previous-sponsors.png";
 
 export const Sponsors = () => {
@@ -40,7 +42,7 @@ export const Sponsors = () => {
           </div>
 
           {/* Third Row */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center max-w-full">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 items-center max-w-full">
             <a href="https://superai.com" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
               <img src={SuperAI.src} alt="SuperAI" className="w-full h-auto transition-opacity duration-300 hover:opacity-80" />
             </a>
@@ -53,10 +55,13 @@ export const Sponsors = () => {
             <a href="https://venturearena.org" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
               <img src={VCArnea.src} alt="VC Arena" className="w-full h-auto transition-opacity duration-300 hover:opacity-80" />
             </a>
+            <a href="https://banksocial.io" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
+              <img src={BankSocial.src} alt="BankSocial" className="w-full h-auto transition-opacity duration-300 hover:opacity-80" />
+            </a>
           </div>
 
           {/* Fourth Row */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center max-w-full">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center max-w-full">
             <a href="https://yottatrend.com" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
               <img src={Yottatrend.src} alt="Yottatrend" className="w-full h-auto transition-opacity duration-300 hover:opacity-80" />
             </a>
@@ -65,6 +70,9 @@ export const Sponsors = () => {
             </a>
             <a href="https://miriamreza.com" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
               <img src={Chymira.src} alt="Chymira" className="w-full h-auto transition-opacity duration-300 hover:opacity-80" />
+            </a>
+            <a href="https://letsconverge.org" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
+              <img src={ConvergeAccelerator.src} alt="Converge Accelerator" className="w-full h-auto transition-opacity duration-300 hover:opacity-80" />
             </a>
           </div>
         </div>
