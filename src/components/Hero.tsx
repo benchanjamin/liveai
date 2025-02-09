@@ -31,6 +31,10 @@ export const Hero = () => {
             <span className="text-xl md:text-2xl text-[#00539B] font-medium">
               Duke University
             </span>
+            <br />
+            <span className="text-xl md:text-2xl text-[#759A48] font-medium">
+              Universal AI University (Mumbai)
+            </span>
           </div>
 
           {/* Buttons */}
