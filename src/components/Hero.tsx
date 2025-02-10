@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <section className="relative flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-white to-gray-50 overflow-hidden">
       <video
-        className="absolute inset-0 w-full h-full object-cover opacity-30"
+        className="absolute inset-0 w-full h-full object-cover opacity-15"
         autoPlay
         loop
         muted
