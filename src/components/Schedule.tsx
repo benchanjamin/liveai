@@ -1,38 +1,46 @@
-import HackathonImage from "@/assets/hackathon.jpeg"
+import HackathonImage from "@/assets/2025OtherPictures/LIVE_AI_2024_Participants.png";
+import LiveAIScheduleOnsite from "@/assets/2025OtherPictures/Live AI Schedule - Onsite.png";
+import LiveAIScheduleOnline from "@/assets/2025OtherPictures/Live AI Schedule - Online.png";
 
 export const Schedule = () => {
-    const events = [
-        { date: "2025 February", event: "Workshop Week (Duke / Harvard / Global)" },
-        { date: "2025 February 22-23", event: "Hybrid Hackathon (Duke / Harvard / Global)" },
-        { date: "2025 February 23", event: "Onsite Judging / Awards Ceremony (On-Campus)" },
-        { date: "2025 February 23 - March 9", event: "Online Judging (Global)" },
-        { date: "2025 March 9", event: "Online Awards Ceremony (Global)" }
-    ]
-
-    return (
-        <section id="events" className="py-20 bg-gray-50">
-            <div className="container mx-auto px-4">
-                <div className="flex flex-col xl:flex-row items-center gap-12">
-                    <div className="w-full xl:w-1/2">
-                        <img 
-                            src={HackathonImage.src} 
-                            alt="Hackathon Event" 
-                            className="rounded-lg shadow-xl w-full h-auto"
-                        />
-                    </div>
-                    <div className="w-full xl:w-1/2 space-y-6">
-                        <h2 className="text-4xl font-bold text-gray-900">Schedule</h2>
-                        <div className="space-y-4">
-                            {events.map((item, index) => (
-                                <div key={index} className="flex flex-col space-y-1">
-                                    <span className="text-blue-600 font-semibold">{item.date}</span>
-                                    <span className="text-gray-700">{item.event}</span>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
+  return (
+    <section id="events" className="py-20 bg-gray-50">
+      <div className="container mx-auto px-4">
+        <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">
+          Schedule
+        </h2>
+        <div className="flex flex-col items-center gap-12">
+          <div className="w-full max-w-3xl mx-auto space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="space-y-2">
+                <h3 className="text-2xl font-semibold text-blue-600 tracking-wide text-center">
+                  Onsite Schedule
+                </h3>
+                <img
+                  src={LiveAIScheduleOnsite.src}
+                  alt="Live AI Onsite Schedule"
+                  className="rounded-lg shadow-xl w-full h-auto"
+                />
+              </div>
+              <div className="space-y-2">
+                <h3 className="text-2xl font-semibold text-blue-600 tracking-wide text-center">
+                  Online Schedule
+                </h3>
+                <img
+                  src={LiveAIScheduleOnline.src}
+                  alt="Live AI Online Schedule"
+                  className="rounded-lg shadow-xl w-full h-auto"
+                />
+              </div>
             </div>
-        </section>
-    )
-} 
+            <img
+              src={HackathonImage.src}
+              alt="Hackathon Event"
+              className="rounded-lg shadow-xl w-full h-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
