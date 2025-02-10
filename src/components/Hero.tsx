@@ -1,8 +1,7 @@
-import LiveAICT from "../assets/LiveAiCT.png";
 import LiveAI3DAnimation from "../assets/2025Videos/Live AI 3D Animation Web.mp4";
 
 import { Button } from "@/components/ui/button";
-import { BackgroundLines } from "./ui/background-lines";
+
 
 export const Hero = () => {
   return (

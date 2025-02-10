@@ -1,5 +1,4 @@
 import TripleLogo from "@/assets/triple-logo.png";
-import LiveAIFlowChart from "@/assets/2025OtherPictures/Live AI Participant Flowchart.png";
 
 export const About = () => {
   return (
@@ -12,13 +11,6 @@ export const About = () => {
               alt="LIVE AI Triple Logo"
               className="rounded-lg shadow-xl max-w-full h-auto"
             />
-            <a href={LiveAIFlowChart.src} rel="noopener noreferrer">
-              <img
-                src={LiveAIFlowChart.src}
-                alt="LIVE AI Participant Flowchart"
-                className="rounded-lg shadow-xl max-w-full h-auto hover:opacity-80 transition-opacity duration-300"
-              />
-            </a>
           </div>
 
           <div className="lg:w-1/2 space-y-6">
