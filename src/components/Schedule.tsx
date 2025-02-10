@@ -1,4 +1,4 @@
-import HackathonImage from "@/assets/2025OtherPictures/LIVE_AI_2024_Participants.png";
+import HackathonImage from "@/assets/2025OtherPictures/Live_AI_Participants.png";
 import LiveAIScheduleOnsite from "@/assets/2025OtherPictures/Live AI Schedule - Onsite.png";
 import LiveAIScheduleOnline from "@/assets/2025OtherPictures/Live AI Schedule - Online.png";
 
