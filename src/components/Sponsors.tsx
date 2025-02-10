@@ -22,12 +22,15 @@ export const Sponsors = () => {
       <div className="container mx-auto px-4">
         {/* Host Campuses */}
         <h2 className="text-4xl font-bold text-gray-900 text-center mb-12 underline">
-          Host Campuses
+          Organizing Hosts
         </h2>
         <div className="max-w-5xl mx-auto space-y-12 mb-20">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-full">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-full">
             <a href="https://hodp.org" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
               <img src={HUDP.src} alt="Harvard Undergraduate Open Data Project" className="w-full h-auto max-w-[300px] mx-auto transition-opacity duration-300 hover:opacity-80" />
+            </a>
+            <a href="https://linkedin.com/company/techtreeroot" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
+              <img src={TechTreeRoot.src} alt="Tech Tree Root" className="w-full h-auto max-w-[200px] mx-auto transition-opacity duration-300 hover:opacity-80" />
             </a>
             <a href="https://linkedin.com/company/dukeaml" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
               <img src={DAML.src} alt="Duke Applied Machine Learning" className="w-full h-auto max-w-[300px] mx-auto transition-opacity duration-300 hover:opacity-80" />
@@ -52,13 +55,6 @@ export const Sponsors = () => {
           Sponsors & Partners
         </h2>
         <div className="max-w-5xl mx-auto space-y-12">
-          {/* First Row - Main Partners */}
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-4 items-center max-w-full">
-            <a href="https://linkedin.com/company/techtreeroot" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
-              <img src={TechTreeRoot.src} alt="Tech Tree Root" className="w-full h-auto max-w-[200px] mx-auto transition-opacity duration-300 hover:opacity-80" />
-            </a>
-          </div>
-
           {/* Second Row */}
           <div className="grid grid-cols-2 md:grid-cols-7 gap-4 items-center max-w-full">
             <a href="https://superai.com" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
