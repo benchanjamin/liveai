@@ -6,7 +6,7 @@ export const About = () => {
     <section id="about" className="landscape:mt-40 bg-white mb-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-12">
-          <div className="lg:w-1/2 space-y-8">
+          <div className="lg:w-1/2 flex flex-col gap-12">
             <img
               src={TripleLogo.src}
               alt="LIVE AI Triple Logo"
@@ -20,6 +20,7 @@ export const About = () => {
               />
             </a>
           </div>
+
           <div className="lg:w-1/2 space-y-6">
             <h2 className="text-4xl font-bold text-gray-900">
               What is LIVE AI?
