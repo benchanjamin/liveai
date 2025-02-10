@@ -16,21 +16,25 @@ export const Schedule = () => {
                 <h3 className="text-2xl font-semibold text-blue-600 tracking-wide text-center">
                   Onsite Schedule
                 </h3>
-                <img
-                  src={LiveAIScheduleOnsite.src}
-                  alt="Live AI Onsite Schedule"
-                  className="rounded-lg shadow-xl w-full h-auto"
-                />
+                <a href={LiveAIScheduleOnsite.src} rel="noopener noreferrer">
+                  <img
+                    src={LiveAIScheduleOnsite.src}
+                    alt="Live AI Onsite Schedule"
+                    className="rounded-lg shadow-xl w-full h-auto hover:opacity-80 transition-opacity duration-300"
+                  />
+                </a>
               </div>
               <div className="space-y-2">
                 <h3 className="text-2xl font-semibold text-blue-600 tracking-wide text-center">
                   Online Schedule
                 </h3>
-                <img
-                  src={LiveAIScheduleOnline.src}
-                  alt="Live AI Online Schedule"
-                  className="rounded-lg shadow-xl w-full h-auto"
-                />
+                <a href={LiveAIScheduleOnline.src} rel="noopener noreferrer">
+                  <img
+                    src={LiveAIScheduleOnline.src}
+                    alt="Live AI Online Schedule"
+                    className="rounded-lg shadow-xl w-full h-auto hover:opacity-80 transition-opacity duration-300"
+                  />
+                </a>
               </div>
             </div>
             <img

@@ -1,4 +1,6 @@
 import LiveAICT from "../assets/LiveAiCT.png";
+import LiveAI3DAnimation from "../assets/2025Videos/Live AI 3D Animation Web.mp4";
+import LiveAI3DAnimationWebM from "../assets/2025Videos/Live AI 3D Animation Web.mp4";
 import { Button } from "@/components/ui/button";
 import { BackgroundLines } from "./ui/background-lines";
 
@@ -16,9 +18,17 @@ export const Hero = () => {
 
           {/* Main Text */}
           <div className="space-y-4">
-            <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 text-transparent bg-clip-text leading-relaxed py-2">
-              Design ➔ Develop ➔ Demo
-            </h1>
+            <video
+              className="w-full max-w-[300px] mx-auto rounded-xl overflow-hidden"
+              autoPlay
+              loop
+              muted
+              playsInline
+            >
+              <source src={LiveAI3DAnimationWebM} type="video/webm" />
+              <source src={LiveAI3DAnimation} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <br />
             <span className="text-xl md:text-2xl text-gray-600 font-medium">
               2025 February 21-23
