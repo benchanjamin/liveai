@@ -119,7 +119,7 @@ export const Rules = () => {
                             <p className="text-lg text-center space-y-6">
                                 For onsite judging and prizes, you must demo your product at <strong>Duke University or Harvard University on 2025 February 23 (Sunday).</strong>
                                 
-                                <br /><br />For online judging and international prizes, submit a demo video lasting 120 - 180 seconds. The video submission deadline is <strong>2025 February 23 (Sunday) at 12:00 pm (noon) EDT.</strong>
+                                <br /><br />For online judging and international prizes, submit a demo video lasting 120 - 180 seconds. The video submission deadline is <strong>2025 February 23 (Sunday) at 12:00 pm (noon) EST.</strong>
                                 
                                 <br /><br />You may also submit any supporting documents, files, images, etc.
                             </p>
