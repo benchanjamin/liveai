@@ -141,7 +141,7 @@ export const Sponsors = () => {
               />
             </a>
             <a
-              href="https://www.frost.com"
+              href="https://frost.com"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform duration-300 hover:scale-105"
@@ -245,6 +245,7 @@ export const Sponsors = () => {
               />
             </a>
             <a
+              href="https://community.ucla.edu/studentorg/6365"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform duration-300 hover:scale-105"
@@ -320,7 +321,7 @@ export const Sponsors = () => {
               />
             </a>
             <a
-              href="https://www.ivistechnologies.com"
+              href="https://ivis.com"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform duration-300 hover:scale-105"
