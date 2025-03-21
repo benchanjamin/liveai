@@ -1,5 +1,5 @@
 import {cn} from "@/lib/utils";
-import {HoverLink} from "@/components/header/HoverLink";
+import {HoverLink} from "@/components/header/ivy-plus/HoverLink";
 import {useStore} from '@nanostores/react'
 import {isOpen, close} from "@/store/use-mobile-menu";
 
