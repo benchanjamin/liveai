@@ -1,0 +1,27 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import '@/styles/globals.css';
+import { Header } from '@/components/lone-star/Header';
+import { Hero } from '@/components/lone-star/Hero';
+import { About } from '@/components/lone-star/About';
+import { Schedule } from '@/components/lone-star/Schedule';
+import { Sponsors } from '@/components/lone-star/Sponsors';
+import { FAQ } from '@/components/lone-star/FAQ';
+import { Rules } from '@/components/lone-star/Rules';
+import { Prizes } from '@/components/lone-star/Prizes';
+import { Contact } from '@/components/lone-star/Contact';
+---
+
+<Layout>
+	<Header client:load/>
+	<main>
+		<Hero client:load/>
+		<About client:load/>
+		<Schedule client:load/>
+		<Sponsors client:load/>
+		<FAQ client:load/>
+		<Rules client:load/>
+		<Prizes client:load/>
+	</main>
+	<Contact client:load/>
+</Layout>
