@@ -1,8 +1,8 @@
-import { HoverLink } from "@/components/header/HoverLink";
-import { MobileHamburgerButton } from "@/components/header/MobileHamburgerButton";
-import { MobileMenu } from "@/components/header/MobileMenu";
-import LiveAILogo from "../assets/LiveAiLogo.png";
-import LiveAICT from "../assets/LiveAiCT.png";
+import { HoverLink } from "@/components/header/home-page/HoverLink";
+import { MobileHamburgerButton } from "@/components/header/home-page/MobileHamburgerButton";
+import { MobileMenu } from "@/components/header/home-page/MobileMenu";
+import LiveAILogo from "../../assets/LiveAiLogo.png";
+import LiveAICT from "../../assets/LiveAiCT.png";
 
 const scrollToSection = (sectionId: string) => {
   const element = document.getElementById(sectionId);
@@ -21,12 +21,15 @@ const scrollToSection = (sectionId: string) => {
 export const Header = () => {
   const navLinks = [
     { title: "About", sectionId: "about" },
-    { title: "Schedule", sectionId: "events" },
-    { title: "Sponsors", sectionId: "sponsors" },
-    { title: "FAQ", sectionId: "faq" },
+    // { title: "Schedule", sectionId: "events" },
+    { title: "Team", sectionId: "" },
+    { title: "Successes", sectionId: "" },
+    { title: "Events", sectionId: "events" },
     { title: "Rules", sectionId: "rules" },
-    { title: "Prizes", sectionId: "prizes" },
-    { title: "Contact", sectionId: "contact" },
+    { title: "FAQ", sectionId: "faq" },
+    { title: "Sponsors", sectionId: "sponsors" },
+    // { title: "Prizes", sectionId: "prizes" },
+    // { title: "Contact", sectionId: "contact" },
   ];
 
   const handleClick = (sectionId: string) => {

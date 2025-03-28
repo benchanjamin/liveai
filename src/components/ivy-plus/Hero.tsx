@@ -1,4 +1,4 @@
-import LiveAI3DAnimation from "../assets/2025Videos/Live AI 3D Animation Web.mp4";
+import LiveAI3DAnimation from "../../assets/2025Videos/Live AI 3D Animation Web.mp4";
 
 import { Button } from "@/components/ui/button";
 

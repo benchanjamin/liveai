@@ -1,15 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import '@/styles/globals.css';
-import { Header } from '@/components/Header';
-import { Hero } from '@/components/Hero';
-import { About } from '@/components/About';
-import { Schedule } from '@/components/Schedule';
-import { Sponsors } from '@/components/Sponsors';
-import { FAQ } from '@/components/FAQ';
-import { Rules } from '@/components/Rules';
-import { Prizes } from '@/components/Prizes';
-import { Contact } from '@/components/Contact';
+import { Header } from '@/components/home-page/Header';
+import { Hero } from '@/components/home-page/Hero';
+import { About } from '@/components/home-page/About';
+import { Events } from '@/components/home-page/Events';
+import { Sponsors } from '@/components/home-page/Sponsors';
+import { Contact } from '@/components/home-page/Contact';
 ---
 
 <Layout>
@@ -17,11 +14,7 @@ import { Contact } from '@/components/Contact';
 	<main>
 		<Hero client:load/>
 		<About client:load/>
-		<Schedule client:load/>
+		<Events client:load/>
 		<Sponsors client:load/>
-		<FAQ client:load/>
-		<Rules client:load/>
-		<Prizes client:load/>
 	</main>
-	<Contact client:load/>
 </Layout>
