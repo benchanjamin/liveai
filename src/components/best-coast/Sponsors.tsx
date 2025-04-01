@@ -86,7 +86,7 @@ export const Sponsors = () => {
         <div className="max-w-5xl mx-auto space-y-12">
           {/* Academic Partners */}
           <div className="grid grid-cols-2 gap-8 items-center max-w-full mb-8">
-            <a
+            {/* <a
               href="https://hodp.org"
               target="_blank"
               rel="noopener noreferrer"
@@ -109,7 +109,7 @@ export const Sponsors = () => {
                 alt="Duke Applied Machine Learning"
                 className="w-full h-auto max-w-[300px] mx-auto transition-opacity duration-300 hover:opacity-80"
               />
-            </a>
+            </a> */}
           </div>
 
           {/* Top Row - Google Cloud */}
@@ -175,7 +175,19 @@ export const Sponsors = () => {
           </div>
 
           {/* Third Row */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center max-w-full">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center max-w-full">
+            <a
+              href="https://seqens.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-transform duration-300 hover:scale-105"
+            >
+              <img
+                src={SEQENS.src}
+                alt="SEQENS"
+                className="w-full h-auto transition-opacity duration-300 hover:opacity-80"
+              />
+            </a>
             <a
               href="https://banksocial.io"
               target="_blank"
