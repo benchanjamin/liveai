@@ -89,7 +89,7 @@ export const Events = () => {
           </div>
 
 
-          {/* <div className="flex flex-col md:flex-row items-center gap-8 p-6 bg-white rounded-lg shadow-lg">
+          <div className="flex flex-col md:flex-row items-center gap-8 p-6 bg-white rounded-lg shadow-lg">
             <div className="md:w-1/3 order-2 md:order-1 h-64">
               <img
                 src={LoneStarEvent.src}
@@ -108,7 +108,7 @@ export const Events = () => {
                 BankSocial, and Converge Accelerator to create innovative
                 solutions for artificial intelligence, blockchain, and fintech
                 to win traditional hackathon prizes and sponsor prizes offered
-                by accelerators and their financial institution investors.
+                by accelerators and their financial institution investors. More information coming!
               </p>
               <div className="flex flex-wrap gap-4 text-gray-700">
                 <div className="flex items-center gap-2">
@@ -161,7 +161,7 @@ export const Events = () => {
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
 
           <div className="flex flex-col md:flex-row items-center gap-8 p-6 bg-white rounded-lg shadow-lg">
             <div className="md:w-1/3 order-2 md:order-1 h-64">
@@ -181,7 +181,7 @@ export const Events = () => {
                 develop, and demo real-world solutions to connect with our
                 sponsors Google, AT&T, Frost & Sullivan, BankSocial, and
                 Converge Accelerator, as well as other top companies,
-                accelerators, investors, and opportunities for innovation
+                accelerators, investors, and opportunities for innovation.
               </p>
               <div className="flex flex-wrap gap-4 text-gray-700">
                 <div className="flex items-center gap-2">
