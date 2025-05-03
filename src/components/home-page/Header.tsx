@@ -47,13 +47,15 @@ export const Header = () => {
             <img
               src={LiveAILogo.src}
               alt="LIVE AI Logo"
-              width={48}
-              height={48}
+              width={30}
+              height={30}
             />
             <img
               src={LiveAICT.src}
               alt="LIVE AI CT Logo"
-              className="hidden md:block h-[50px] w-auto"
+              className="hidden md:block"
+              height={30}
+              width={137}
             />
           </a>
 

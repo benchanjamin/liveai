@@ -24,7 +24,7 @@ export const Events = () => {
             </div>
 
             <div className="md:w-2/3 space-y-4 order-1 md:order-2">
-              <h3 className="text-2xl font-bold text-gray-900">
+              <h3 className="text-3xl font-bold text-gray-900">
                 Lone Star Hackathon Series
               </h3>
               <p className="text-gray-700">
@@ -99,7 +99,7 @@ export const Events = () => {
             </div>
 
             <div className="md:w-2/3 space-y-4 order-1 md:order-2">
-              <h3 className="text-2xl font-bold text-gray-900">
+              <h3 className="text-3xl font-bold text-gray-900">
                 Best Coast Hackathon Series
               </h3>
               <p className="text-gray-700">
@@ -173,7 +173,7 @@ export const Events = () => {
             </div>
 
             <div className="md:w-2/3 space-y-4 order-1 md:order-2">
-              <h3 className="text-2xl font-bold text-gray-900">
+              <h3 className="text-3xl font-bold text-gray-900">
                 Ivy Plus Hackathon Series
               </h3>
               <p className="text-gray-700">
