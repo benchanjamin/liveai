@@ -24,20 +24,18 @@ export const About = () => {
               What is LIVE AI?
             </h2>
             <div className="space-y-4">
-              <p className="text-lg text-gray-700 leading-relaxed">
-                LIVE AI is a pioneering multi-campus hybrid hackathon primarily
-                hosted at Duke University and Harvard University in February
-                2025. Both host campuses will provide immersive in-person
-                hackathon experiences, while participants worldwide can join
-                through LIVE AI Global.
+              <p className="text-2xl text-gray-700 leading-relaxed italic">
+                The premier accelerator-backed and hackathon-driver talent
+                identification program
               </p>
+
+              <hr className="border-2" />
+
               <p className="text-lg text-gray-700 leading-relaxed">
-                We're proud to partner with Universal AI University (Mumbai) as
-                our affiliate campus, expanding our reach into the vibrant
-                Indian tech ecosystem. All participants—whether at our host
-                campuses, affiliate campus, or joining globally online—will
-                connect through engaging speaker panels and cross-campus
-                activities.
+                Our participants, including many from Ivy Plus Universities and
+                around the world, have gotten hired, acquired, and admitted into
+                accelerators that help their teams incorporate as companies and
+                secure investments all across the United States.
               </p>
             </div>
           </div>

@@ -24,11 +24,22 @@ export const About = () => {
               What is LIVE AI?
             </h2>
             <div className="space-y-4">
+            <p className="text-2xl text-gray-700 leading-relaxed italic">
+                The premier accelerator-backed and hackathon-driver talent
+                identification program
+              </p>
+
+              <hr className="border-2"/>
+
               <p className="text-lg text-gray-700 leading-relaxed">
-                LIVE AI is the premier accelerator-backed and hackathon-driven talent identification program. We have already helped many undergraduate and graduate students (including many from Ivy Plus Universities) get hired, acquired, admitted into accelerators, as well as incorporated and invested all across the United States.
+                Our participants, including many from Ivy Plus Universities and
+                around the world, have gotten hired, acquired, and admitted into
+                accelerators that help their teams incorporate as companies and
+                secure investments all across the United States.
               </p>
             </div>
           </div>
+
         </div>
       </div>
     </section>
