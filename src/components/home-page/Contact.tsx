@@ -9,35 +9,35 @@ import {
 
 export const socialLinks = [
   {
-    href: "https://discord.gg/liveaihack",
+    href: "https://discord.gg/KYKMQfbzAF",
     title: "Discord",
     icon: (
       <DiscordLogoIcon className="w-8 h-8 text-[#5865F2] hover:text-[#414dc8]" />
     ),
   },
   {
-    href: "https://instagram.com/liveaihack",
+    href: "https://instagram.com/liveaiglobal",
     title: "Instagram",
     icon: (
       <InstagramIcon className="w-8 h-8 text-[#E1306C] hover:text-[#c13584]" />
     ),
   },
   {
-    href: "https://linkedin.com/company/liveaihack",
+    href: "https://linkedin.com/company/liveaiglobal",
     title: "LinkedIn",
     icon: (
       <LinkedinIcon className="w-8 h-8 text-[#0077B5] hover:text-[#005582]" />
     ),
   },
   {
-    href: "https://twitter.com/liveaihack",
+    href: "https://twitter.com/liveaiglobal",
     title: "Twitter",
     icon: (
       <TwitterIcon className="w-8 h-8 text-[#1DA1F2] hover:text-[#0c85d0]" />
     ),
   },
   {
-    href: "mailto:team@liveai.org",
+    href: "mailto:team@techtreeroot.org",
     title: "Email",
     icon: <Mail className="w-8 h-8 text-[#EA4335] hover:text-[#c92c1e]" />,
   },
