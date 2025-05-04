@@ -24,7 +24,7 @@ export const About = () => {
             </h2>
             <div className="space-y-4">
               <p className="text-2xl text-gray-700 leading-relaxed italic">
-                The premier accelerator-backed and hackathon-driver talent
+                The premier accelerator-backed and hackathon-driven talent
                 identification program
               </p>
 
@@ -34,7 +34,8 @@ export const About = () => {
                 Our participants, including many from Ivy Plus Universities and
                 around the world, have gotten hired, acquired, and admitted into
                 accelerators that help their teams incorporate as companies and
-                secure investments all across the United States. To see their accomplishments, check out our <strong>HIGHLIGHTS</strong>.
+                secure investments all across the United States. To see their
+                accomplishments, check out our <strong>HIGHLIGHTS</strong>.
               </p>
 
               <hr className="border-2" />
@@ -49,21 +50,54 @@ export const About = () => {
               <p className="text-lg text-gray-700 leading-relaxed">
                 If you are an aspiring creative, developer, or entrepreneur who
                 is 13 years or older, then you can join us as an online
-                participant on <strong>DISCORD</strong>. If you want to join us
-                onsite, you must be 18 years or older. No travel assistance will
-                be provided, but attendance is free, and we will provide all
-                scheduled meals. Each submission may include a maximum of four
-                teammates.
+                participant on{" "}
+                <a
+                  href="https://discord.gg/KYKMQfbzAF"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline font-bold"
+                >
+                  Discord
+                </a>
+                . If you want to join us onsite, you must be 18 years or older.
+                No travel assistance will be provided, but attendance is free,
+                and we will provide all scheduled meals. Each submission may
+                include a maximum of four teammates.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                For more information, check out our <strong>RULES</strong> and{" "}
-                <strong>PRIZES</strong>.
+                For more information, check out our{" "}
+                <a
+                  href="https://liveai-lonestar-2025.devpost.com/rules"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline font-bold"
+                >
+                  rules
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://liveai-lonestar-2025.devpost.com#prizes"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline font-bold"
+                >
+                  prizes
+                </a>
+                .
               </p>
 
-              <p className="text-lg text-gray-700 font-bold">
-                To be part of LIVE AI Lone Star 2025, submit your resume and
-                application!
+              <p className="text-lg text-gray-700">
+                To be part of LIVE AI Lone Star 2025,{" "}
+                <a
+                  href="https://forms.gle/axaNLmmkDAESFxww8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline font-bold"
+                >
+                  submit your resume and application here
+                </a>
+                !
               </p>
             </div>
           </div>

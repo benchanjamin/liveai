@@ -25,7 +25,7 @@ export const About = () => {
             </h2>
             <div className="space-y-4">
             <p className="text-2xl text-gray-700 leading-relaxed italic">
-                The premier accelerator-backed and hackathon-driver talent
+                The premier accelerator-backed and hackathon-driven talent
                 identification program
               </p>
 
