@@ -81,7 +81,7 @@ export const About = () => {
                     Discord
                   </a>
                   . If you want to join us onsite, you must be 18 years or older.
-                  No travel assistance will be provided, but attendance is free,
+                  No travel assistance will be provided but attendance is free,
                   and we will provide all scheduled meals. Each submission may
                   include a maximum of <strong>four teammates</strong>.
                 </p>
