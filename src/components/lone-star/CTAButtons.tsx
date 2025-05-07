@@ -1,6 +1,6 @@
 export const CTAButtons = () => {
   return (
-    <section id="events" className="py-20 bg-gray-50">
+    <section id="events" className="py-20 bg-[#fff1e6]">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center justify-center gap-6">
           {/* First row - Schedule button */}
