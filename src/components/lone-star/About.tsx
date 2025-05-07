@@ -109,7 +109,7 @@ export const About = () => {
                 </p>
 
                 <p className="text-lg text-gray-700">
-                  To be join LIVE AI Lone Star 2025,{" "}
+                  To join LIVE AI Lone Star 2025,{" "}
                   submit your resume and apply here!
                 </p>
 
