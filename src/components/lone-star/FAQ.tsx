@@ -11,7 +11,7 @@ export const FAQ = () => {
             question: "What is LIVE AI?",
             answer: (
                 <>
-                    <p>LIVE AI is a fresh multi-campus hybrid hackathon that invites you to join us at either of our host campuses, Duke University (LIVE AI Duke) and Harvard University (LIVE AI Harvard), as well as online (LIVE AI Global) on 2025 February 22 - 23 (Saturday-Sunday). Both LIVE AI Duke and LIVE AI Harvard will provide full in-person hackathon experiences, and all three communities will connect with each other through speaker panels and fun activities.</p>
+                    <p>LIVE AI is a fresh multi-campus hybrid hackathon that invites you to join us at either of our host campuses, Duke University (LIVE AI Duke) and Harvard University (LIVE AI Harvard), as well as online (LIVE AI Global) on 2025 February 22-23 (Saturday-Sunday). Both LIVE AI Duke and LIVE AI Harvard will provide full in-person hackathon experiences, and all three communities will connect with each other through speaker panels and fun activities.</p>
                     <p className="mt-2">Our themes are artificial intelligence, blockchain / web3, and financial technology.</p>
                 </>
             )

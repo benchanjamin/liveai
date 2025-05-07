@@ -24,8 +24,8 @@ export const About = () => {
             </h2>
             <div className="space-y-4">
               <p className="text-2xl text-gray-700 leading-relaxed italic">
-                The premier accelerator-backed and hackathon-driven talent
-                identification program
+                The premier accelerator-backed and hackathon-driven
+                <br /> talent identification program
               </p>
 
               <hr className="border-2" />
@@ -34,8 +34,12 @@ export const About = () => {
                 Our participants, including many from Ivy Plus Universities and
                 around the world, have gotten hired, acquired, and admitted into
                 accelerators that help their teams incorporate as companies and
-                secure investments all across the United States. To see their
-                accomplishments, check out our <strong>HIGHLIGHTS</strong>.
+                secure investments all across the United States.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                To see their accomplishments, check out our{" "}
+                <strong>HIGHLIGHTS</strong>.
               </p>
 
               <hr className="border-2" />
@@ -62,7 +66,7 @@ export const About = () => {
                 . If you want to join us onsite, you must be 18 years or older.
                 No travel assistance will be provided, but attendance is free,
                 and we will provide all scheduled meals. Each submission may
-                include a maximum of four teammates.
+                include a maximum of <strong>four teammates</strong>.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -88,17 +92,21 @@ export const About = () => {
               </p>
 
               <p className="text-lg text-gray-700">
-                To be part of LIVE AI Lone Star 2025,{" "}
-                <a
+                To be join LIVE AI Lone Star 2025,{" "}
+                  submit your resume and apply here!
+              </p>
+
+              <a
                   href="https://forms.gle/axaNLmmkDAESFxww8"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline font-bold"
+                  className="inline-block"
                 >
-                  submit your resume and application here
+                  <button className="px-6 py-3 text-2xl font-bold text-white bg-[#bf5700] border border-[#a64a00] rounded-lg shadow-md hover:bg-[#a64a00] hover:shadow-lg transition-all duration-300">
+                    Submit Application
+                  </button>
                 </a>
-                !
-              </p>
+
             </div>
           </div>
         </div>

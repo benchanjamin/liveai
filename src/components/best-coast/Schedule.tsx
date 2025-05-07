@@ -3,7 +3,7 @@ import LiveAIScheduleOnsite from "@/assets/2025OtherPictures/Live AI Schedule - 
 import LiveAIScheduleOnline from "@/assets/2025OtherPictures/Live AI Schedule - Online.png";
 import LiveAIFlowChart from "@/assets/2025OtherPictures/Live AI Participant Flowchart.png";
 
-export const Schedule = () => {
+export const CTAButtons = () => {
   return (
     <section id="events" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">

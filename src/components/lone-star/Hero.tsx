@@ -27,7 +27,7 @@ export const Hero = () => {
         {/* Main Text */}
         <div className="space-y-4 px-4">
           <span className="text-xl md:text-2xl text-gray-600 font-medium">
-            2025 June 6 - 8
+            2025 June 6-8
           </span>
           <br />
           <span className="text-xl md:text-2xl text-[#A51C30] font-medium">

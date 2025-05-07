@@ -24,12 +24,12 @@ export const About = () => {
               What is LIVE AI?
             </h2>
             <div className="space-y-4">
-            <p className="text-2xl text-gray-700 leading-relaxed italic">
-                The premier accelerator-backed and hackathon-driven talent
-                identification program
+              <p className="text-2xl text-gray-700 leading-relaxed italic">
+                The premier accelerator-backed and hackathon-driven
+                <br /> talent identification program
               </p>
 
-              <hr className="border-2"/>
+              <hr className="border-2" />
 
               <p className="text-lg text-gray-700 leading-relaxed">
                 Our participants, including many from Ivy Plus Universities and
@@ -37,9 +37,13 @@ export const About = () => {
                 accelerators that help their teams incorporate as companies and
                 secure investments all across the United States.
               </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                To see their accomplishments, check out our{" "}
+                <strong>HIGHLIGHTS</strong>.
+              </p>
             </div>
           </div>
-
         </div>
       </div>
     </section>
