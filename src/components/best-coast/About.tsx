@@ -42,7 +42,7 @@ export const About = () => {
 
               <p className="text-lg text-gray-700 leading-relaxed">
                 To see their accomplishments, check out our{" "}
-                <strong>HIGHLIGHTS</strong>.
+                <strong>HIGHLIGHTS</strong> (coming soon).
               </p>
             </div>
           </div>
