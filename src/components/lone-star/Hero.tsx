@@ -31,11 +31,11 @@ export const Hero = () => {
           </span>
           <br />
           <span className="text-xl md:text-2xl text-[#A51C30] font-medium">
-            Google (Austin)
+            Austin (Antler)
           </span>
           <br />
           <span className="text-xl md:text-2xl text-[#00539B] font-medium">
-            BankSocial (Dallas)
+            Dallas (BankSocial)
           </span>
           <br />
           <div className="mt-6 inline-flex items-center justify-center gap-3 border-t border-gray-200 pt-4">
