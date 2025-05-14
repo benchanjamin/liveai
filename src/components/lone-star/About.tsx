@@ -29,10 +29,11 @@ export const About = () => {
                 <hr className="border-2" />
 
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Our participants, including many from Ivy Plus Universities and
-                  around the world, have gotten hired, acquired, and admitted into
-                  accelerators that help their teams incorporate as companies and
-                  secure investments all across the United States.
+                  Our participants, including many from Ivy Plus Universities
+                  and around the world, have gotten hired, acquired, and
+                  admitted into accelerators that help their teams incorporate
+                  as companies and secure investments all across the United
+                  States.
                 </p>
 
                 <p className="text-lg text-gray-700 leading-relaxed">
@@ -65,12 +66,13 @@ export const About = () => {
                 <p className="text-lg text-gray-700 leading-relaxed">
                   <strong>LONE STAR</strong> is the Texas line of LIVE AI
                   hackathons. LIVE AI Lone Star 2025 will be hosted in Austin
-                  (Google + Capital Factory) and Dallas (BankSocial) on June 6-8.
+                  (<a href="https://antler.co" className="text-blue-600 hover:underline font-bold">Antler</a>) and Dallas (BankSocial) on June
+                  6-8.
                 </p>
 
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  If you are an aspiring creative, developer, or entrepreneur who
-                  is 13 years or older, then you can join us as an online
+                  If you are an aspiring creative, developer, or entrepreneur
+                  who is 13 years or older, then you can join us as an online
                   participant on{" "}
                   <a
                     href="https://discord.gg/KYKMQfbzAF"
@@ -80,14 +82,14 @@ export const About = () => {
                   >
                     Discord
                   </a>
-                  . If you want to join us onsite, you must be 18 years or older.
-                  No travel assistance will be provided but attendance is free,
-                  and we will provide all scheduled meals. Each submission may
-                  include a maximum of <strong>four teammates</strong>.
+                  . If you want to join us onsite, you must be 18 years or
+                  older. No travel assistance will be provided but attendance is
+                  free, and we will provide all scheduled meals. Each submission
+                  may include a maximum of <strong>four teammates</strong>.
                 </p>
 
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  For more information, check out our{" "}
+                  For more information, check out our FAQs,{" "}
                   <a
                     href="https://liveai-lonestar-2025.devpost.com/rules"
                     target="_blank"
@@ -95,7 +97,7 @@ export const About = () => {
                     className="text-blue-600 hover:underline font-bold"
                   >
                     rules
-                  </a>{" "}
+                  </a>,{" "}
                   and{" "}
                   <a
                     href="https://liveai-lonestar-2025.devpost.com#prizes"
@@ -109,8 +111,8 @@ export const About = () => {
                 </p>
 
                 <p className="text-lg text-gray-700">
-                  To join LIVE AI Lone Star 2025,{" "}
-                  submit your resume and apply here!
+                  To join LIVE AI Lone Star 2025, submit your resume and apply
+                  here!
                 </p>
 
                 <a

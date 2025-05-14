@@ -117,7 +117,7 @@ export const Rules = () => {
 
                         <div className="judging-details mt-12 border-[5px] border-[#0E2080] rounded-[18px] p-8">
                             <p className="text-lg text-center space-y-6">
-                                For onsite judging and prizes, you must demo your product at <strong>Google (Austin) or BankSocial (Dallas) on 2025 June 8 (Sunday).</strong>
+                                For onsite judging and prizes, you must demo your product at <strong>Austin (<a href="https://antler.co" className="text-blue-600 hover:underline">Antler</a>) or Dallas (BankSocial) on 2025 June 8 (Sunday).</strong>
                                 
                                 <br /><br />For online judging and international prizes, submit a demo video lasting 120-180 seconds. The video submission deadline is <strong> 2025 June 8 (Sunday) at 12:00 pm (noon) CDT.</strong>
                                 

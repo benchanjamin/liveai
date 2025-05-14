@@ -74,7 +74,7 @@ export const Events = () => {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
-                  <span>Google (Austin) + BankSocial (Dallas) + Virtual</span>
+                  <span>Austin (<a href="https://antler.co" className="text-blue-600 hover:underline">Antler</a>) + Dallas (BankSocial) + Virtual</span>
                 </div>
               </div>
               <div>

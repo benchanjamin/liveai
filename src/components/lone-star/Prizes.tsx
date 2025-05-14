@@ -13,7 +13,7 @@ export const Prizes = () => {
                         </div>
                         <div className="prose prose-lg max-w-none">
                             <p className="text-gray-700 leading-relaxed">
-                                LIVE AI Lone Star 2025 is set to offer $10,000 in prizes across a variety of categories, with each prize being awarded in three prize pools: onsite at Google (Austin), onsite at BankSocial (Dallas), and online. Participants can compete in numerous fields including Artificial Intelligence, Blockchain/Web3, and Financial Technology.
+                                LIVE AI Lone Star 2025 is set to offer $10,000 in prizes across a variety of categories, with each prize being awarded in three prize pools: onsite at Austin (<a href="https://antler.co" className="text-blue-600 font-bold underline hover:text-blue-800 transition-colors duration-300">Antler</a>), onsite at Dallas (BankSocial), and online. Participants can compete in numerous fields including Artificial Intelligence, Blockchain/Web3, and Financial Technology.
                             </p>
                             <p className="text-gray-700 leading-relaxed mt-6">
                                 All participants will be eligible for the usual hackathon prize package, as well as offers for internships and jobs, opportunities to sell their IP, and consideration for joining the fintech-focused {' '} 
