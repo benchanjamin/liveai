@@ -39,7 +39,7 @@ export const MobileMenu = () => {
                     <HoverLink onClick={() => handleClick("about")}>About</HoverLink>
                     <HoverLink onClick={() => handleClick("events")}>Schedule</HoverLink>
                     <HoverLink onClick={() => handleClick("sponsors")}>Sponsors</HoverLink>
-                    <HoverLink onClick={() => handleClick("faq")}>FAQ</HoverLink>
+                    <HoverLink onClick={() => handleClick("faqs")}>FAQs</HoverLink>
                     <HoverLink onClick={() => handleClick("rules")}>Rules</HoverLink>
                     <HoverLink onClick={() => handleClick("prizes")}>Prizes</HoverLink>
                     <HoverLink onClick={() => handleClick("contact")}>Contact</HoverLink>

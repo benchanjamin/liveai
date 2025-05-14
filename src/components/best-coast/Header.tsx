@@ -23,7 +23,7 @@ export const Header = () => {
     { title: "About", sectionId: "about" },
     { title: "Schedule", sectionId: "events" },
     { title: "Sponsors", sectionId: "sponsors" },
-    { title: "FAQ", sectionId: "faq" },
+    { title: "FAQs", sectionId: "faqs" },
     { title: "Rules", sectionId: "rules" },
     { title: "Prizes", sectionId: "prizes" },
     { title: "Contact", sectionId: "contact" },
