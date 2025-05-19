@@ -65,7 +65,7 @@ export const About = () => {
               <div className="space-y-4">
                 <p className="text-lg text-gray-700 leading-relaxed">
                   <strong>LONE STAR</strong> is the Texas line of LIVE AI
-                  hackathons. LIVE AI Lone Star 2025 will be hosted in Austin
+                  hackathons. <strong>LIVE AI Lone Star 2025</strong> will be hosted in Austin
                   (<a href="https://antler.co" className="text-blue-600 hover:underline font-bold">Antler</a>) and Dallas (BankSocial) on June
                   6-8.
                 </p>
@@ -111,7 +111,7 @@ export const About = () => {
                 </p>
 
                 <p className="text-lg text-gray-700">
-                  To join LIVE AI Lone Star 2025, submit your resume and apply
+                  To join <strong>LIVE AI Lone Star 2025</strong>, submit your resume and apply
                   here!
                 </p>
 
