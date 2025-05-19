@@ -16,19 +16,12 @@ export const About = () => {
 
           <div className="lg:w-1/2 space-y-6">
             <h2 className="text-4xl font-bold text-gray-900">
-              What is LIVE AI?
+              LIVE AI?
             </h2>
             <div className="space-y-4">
               <p className="text-2xl text-gray-700 leading-relaxed italic">
                 The premier accelerator-backed and hackathon-driven
-                <br /> talent identification program
-              </p>
-
-              <hr className="border-2" />
-
-              <p className="text-2xl text-gray-700 leading-relaxed italic">
-                The premier accelerator-backed and hackathon-driven
-                <br /> talent identification program
+                <br /> talent identification program.
               </p>
 
               <hr className="border-2" />
