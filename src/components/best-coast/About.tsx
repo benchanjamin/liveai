@@ -16,7 +16,7 @@ export const About = () => {
 
           <div className="lg:w-1/2 space-y-6">
             <h2 className="text-4xl font-bold text-gray-900">
-              LIVE AI?
+              LIVE AI
             </h2>
             <div className="space-y-4">
               <p className="text-2xl text-gray-700 leading-relaxed italic">
