@@ -89,7 +89,7 @@ export const About = () => {
                 </p>
 
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  For more information, check out our FAQs (coming soon),{" "}
+                  For more information, check out our FAQs,{" "}
                   <a
                     href="https://liveai-lonestar-2025.devpost.com/rules"
                     target="_blank"
