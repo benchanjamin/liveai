@@ -34,7 +34,7 @@ export const Sponsors = () => {
                             />
                         </a>
                         <a
-                            href="https://www.antler.co/"
+                            href="https://antler.co"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="transition-transform duration-300 hover:scale-105"
@@ -145,7 +145,7 @@ export const Sponsors = () => {
                             />
                         </a>
                         <a
-                            href="https://letsconverge.org"
+                            href="https://convergeaccelerator.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="transition-transform duration-300 hover:scale-105"
@@ -158,14 +158,14 @@ export const Sponsors = () => {
                         </a>
 
                         <a
-                            href="https://letsconverge.org"
+                            href="https://f6s.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="transition-transform duration-300 hover:scale-105 md:ml-10"
                         >
                             <img
                                 src={FS6.src}
-                                alt="FS6"
+                                alt="F6S"
                                 className="w-[200px] h-auto transition-opacity duration-300 hover:opacity-80"
                             />
                         </a>
