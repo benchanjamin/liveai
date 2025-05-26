@@ -201,7 +201,7 @@ export const Sponsors = () => {
               />
             </a>
             <a
-              href="https://letsconverge.org"
+              href="https://convergeaccelerator.com"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform duration-300 hover:scale-105"
