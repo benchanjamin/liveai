@@ -24,7 +24,7 @@ export const About = () => {
               LIVE AI
             </h2>
             <div className="space-y-4">
-              <p className="text-2xl text-gray-700 leading-relaxed italic">
+              <p className="text-2xl text-gray-700 leading-snug italic">
                 The premier accelerator-backed and hackathon-driven
                 <br /> talent identification program.
               </p>

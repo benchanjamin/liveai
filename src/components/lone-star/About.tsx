@@ -6,7 +6,7 @@ export const About = () => {
     <>
       {/* LIVE AI Section */}
       <section id="about" className="landscape:mt-40 bg-white mb-20">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto p-4">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2 flex flex-col gap-8">
               <img
@@ -21,9 +21,9 @@ export const About = () => {
                 LIVE AI
               </h2>
               <div className="space-y-4">
-                <p className="text-2xl text-gray-700 leading-relaxed italic">
+                <p className="text-2xl text-gray-700 leading-snug italic">
                   The premier accelerator-backed and hackathon-driven
-                  <br /> talent identification program.
+                  <br className="lg:hidden" /> talent identification program.
                 </p>
 
                 <hr className="border-2" />
@@ -89,7 +89,20 @@ export const About = () => {
                 </p>
 
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  For more information, check out our FAQs,{" "}
+                  For more information, check out our <a href="#faq" className="text-blue-600 hover:underline font-bold" onClick={(e) => {
+                    e.preventDefault(); 
+                    const element = document.getElementById('faq');
+                    if (element) {
+                      const headerOffset = 114; // Height of the header in pixels
+                      const elementPosition = element.getBoundingClientRect().top;
+                      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                      
+                      window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                      });
+                    }
+                  }}>FAQs</a>,{" "}
                   <a
                     href="https://liveai-lonestar-2025.devpost.com/rules"
                     target="_blank"
