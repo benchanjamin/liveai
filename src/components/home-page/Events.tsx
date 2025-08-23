@@ -1,10 +1,47 @@
 import { Button } from "@/components/ui/button";
 import IvyPlusEvent from "@/assets/ivy-plus.webp";
 import LoneStarEvent from "@/assets/lone-star.webp";
+import { useEffect } from "react";
+
 export const Events = () => {
+  useEffect(() => {
+    // Load Behold widget script
+    const script = document.createElement('script');
+    script.src = 'https://w.behold.so/widget.js';
+    script.type = 'module';
+    script.async = true;
+    document.head.appendChild(script);
+
+    return () => {
+      // Cleanup script on unmount
+      const existingScript = document.querySelector('script[src="https://w.behold.so/widget.js"]');
+      if (existingScript) {
+        existingScript.remove();
+      }
+    };
+  }, []);
+
+  // Configure your Behold feed ID from environment variable
+  // Setup instructions:
+  // 1. Go to behold.so and create an account
+  // 2. Connect a Business/Creator Instagram account (personal accounts don't work)
+  // 3. Create a feed and copy the feed ID from your dashboard
+  // 4. Add your feed ID to the .env file as PUBLIC_BEHOLD_FEED_ID
+  const beholdFeedId = import.meta.env.PUBLIC_BEHOLD_FEED_ID || 'BEHOLD_FEED_ID';
+
   return (
     <section id="events" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
+        {/* Instagram Carousel Section */}
+        <div className="max-w-6xl mx-auto mb-16">
+          <div className="bg-white rounded-lg shadow-lg p-6">
+            <div 
+              data-behold-id={beholdFeedId}
+              className="behold-carousel"
+            ></div>
+          </div>
+        </div>
+
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Events</h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
