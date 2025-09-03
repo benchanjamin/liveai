@@ -50,7 +50,7 @@ export const Hero = () => {
             className="w-full sm:w-auto min-w-[200px] bg-blue-600 hover:bg-blue-700 text-white font-semibold py-6 relative overflow-hidden group/modal-btn"
           >
             <a
-              href="https://forms.gle/o466Mohw4zFeJmmi8"
+              href="https://forms.gle/m4niqZDQqWyGtkSz8"
               target="_blank"
               rel="noopener noreferrer"
             >
