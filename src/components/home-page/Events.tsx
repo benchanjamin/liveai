@@ -5,40 +5,49 @@ import { useEffect } from "react";
 
 export const Events = () => {
   useEffect(() => {
-    // Load Behold widget script
-    const script = document.createElement('script');
-    script.src = 'https://w.behold.so/widget.js';
-    script.type = 'module';
-    script.async = true;
-    document.head.appendChild(script);
-
-    return () => {
-      // Cleanup script on unmount
-      const existingScript = document.querySelector('script[src="https://w.behold.so/widget.js"]');
-      if (existingScript) {
-        existingScript.remove();
-      }
-    };
+    // Load Behold widget script using the provided script approach
+    (() => {
+      const d = document;
+      const s = d.createElement("script");
+      s.type = "module";
+      s.src = "https://w.behold.so/widget.js";
+      d.head.append(s);
+    })();
   }, []);
-
-  // Configure your Behold feed ID from environment variable
-  // Setup instructions:
-  // 1. Go to behold.so and create an account
-  // 2. Connect a Business/Creator Instagram account (personal accounts don't work)
-  // 3. Create a feed and copy the feed ID from your dashboard
-  // 4. Add your feed ID to the .env file as PUBLIC_BEHOLD_FEED_ID
-  const beholdFeedId = import.meta.env.PUBLIC_BEHOLD_FEED_ID || 'BEHOLD_FEED_ID';
 
   return (
     <section id="events" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        {/* Instagram Carousel Section */}
-        <div className="max-w-6xl mx-auto mb-16">
-          <div className="bg-white rounded-lg shadow-lg p-6">
-            <div 
-              data-behold-id={beholdFeedId}
-              className="behold-carousel"
-            ></div>
+        {/* Instagram Gallery Section */}
+        <div className="max-w-7xl mx-auto mb-20">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Follow Our Journey
+            </h2>
+            <p className="text-lg text-gray-700">@liveaiglobal on Instagram</p>
+          </div>
+          <div className="bg-white rounded-xl shadow-xl p-8">
+            <style>{`
+              behold-widget {
+                display: block;
+                width: 100%;
+              }
+              behold-widget figure {
+                margin: 0 !important;
+              }
+              behold-widget a {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+              }
+              behold-widget a:hover {
+                transform: scale(1.05);
+                box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+                z-index: 10;
+                position: relative;
+              }
+            `}</style>
+            <behold-widget
+              feed-id={import.meta.env.PUBLIC_BEHOLD_FEED_ID}
+            ></behold-widget>
           </div>
         </div>
 
@@ -111,7 +120,16 @@ export const Events = () => {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
-                  <span>Austin (<a href="https://antler.co" className="text-blue-600 hover:underline">Antler</a>) + Dallas (BankSocial) + Virtual</span>
+                  <span>
+                    Austin (
+                    <a
+                      href="https://antler.co"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Antler
+                    </a>
+                    ) + Dallas (BankSocial) + Virtual
+                  </span>
                 </div>
               </div>
               <div>
@@ -124,7 +142,6 @@ export const Events = () => {
               </div>
             </div>
           </div>
-
 
           <div className="flex flex-col md:flex-row items-center gap-8 p-6 bg-white rounded-lg shadow-lg">
             <div className="md:w-1/3 order-2 md:order-1 h-64">
@@ -145,7 +162,8 @@ export const Events = () => {
                 BankSocial, and Converge Accelerator to create innovative
                 solutions for artificial intelligence, blockchain, and fintech
                 to win traditional hackathon prizes and sponsor prizes offered
-                by accelerators and their financial institution investors. More information coming!
+                by accelerators and their financial institution investors. More
+                information coming!
               </p>
               <div className="flex flex-wrap gap-4 text-gray-700">
                 <div className="flex items-center gap-2">
