@@ -1,10 +1,56 @@
 import { Button } from "@/components/ui/button";
 import IvyPlusEvent from "@/assets/ivy-plus.webp";
 import LoneStarEvent from "@/assets/lone-star.webp";
+import { useEffect } from "react";
+
 export const Events = () => {
+  useEffect(() => {
+    // Load Behold widget script using the provided script approach
+    (() => {
+      const d = document;
+      const s = d.createElement("script");
+      s.type = "module";
+      s.src = "https://w.behold.so/widget.js";
+      d.head.append(s);
+    })();
+  }, []);
+
   return (
     <section id="events" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
+        {/* Instagram Gallery Section */}
+        <div className="max-w-7xl mx-auto mb-20">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Follow Our Journey
+            </h2>
+            <p className="text-lg text-gray-700">@liveaiglobal on Instagram</p>
+          </div>
+          <div className="bg-white rounded-xl shadow-xl p-8">
+            <style>{`
+              behold-widget {
+                display: block;
+                width: 100%;
+              }
+              behold-widget figure {
+                margin: 0 !important;
+              }
+              behold-widget a {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+              }
+              behold-widget a:hover {
+                transform: scale(1.05);
+                box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+                z-index: 10;
+                position: relative;
+              }
+            `}</style>
+            <behold-widget
+              feed-id={import.meta.env.PUBLIC_BEHOLD_FEED_ID}
+            ></behold-widget>
+          </div>
+        </div>
+
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Events</h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
@@ -74,7 +120,16 @@ export const Events = () => {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
-                  <span>Austin (<a href="https://antler.co" className="text-blue-600 hover:underline">Antler</a>) + Dallas (BankSocial) + Virtual</span>
+                  <span>
+                    Austin (
+                    <a
+                      href="https://antler.co"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Antler
+                    </a>
+                    ) + Dallas (BankSocial) + Virtual
+                  </span>
                 </div>
               </div>
               <div>
@@ -87,7 +142,6 @@ export const Events = () => {
               </div>
             </div>
           </div>
-
 
           <div className="flex flex-col md:flex-row items-center gap-8 p-6 bg-white rounded-lg shadow-lg">
             <div className="md:w-1/3 order-2 md:order-1 h-64">
@@ -108,7 +162,8 @@ export const Events = () => {
                 BankSocial, and Converge Accelerator to create innovative
                 solutions for artificial intelligence, blockchain, and fintech
                 to win traditional hackathon prizes and sponsor prizes offered
-                by accelerators and their financial institution investors. More information coming!
+                by accelerators and their financial institution investors. More
+                information coming!
               </p>
               <div className="flex flex-wrap gap-4 text-gray-700">
                 <div className="flex items-center gap-2">
