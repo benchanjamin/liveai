@@ -27,12 +27,20 @@ export const Hero = () => {
             2025 November 7-9
           </span>
           <br />
+          <span className="text-xl md:text-2xl text-[#002676] font-medium">
+            Berkeley
+          </span>
+          <br />
           <span className="text-xl md:text-2xl text-[#2774AE] font-medium">
             UCLA
           </span>
           <br />
+          <span className="text-xl md:text-2xl text-[#182B49] font-medium">
+            UCSD
+          </span>
+          <br />
           <span className="text-xl md:text-2xl text-[#8C1515] font-medium">
-            Stanford University
+            Stanford
           </span>
           <br />
           <div className="mt-6 inline-flex items-center justify-center gap-3 border-t border-gray-200 pt-4">
