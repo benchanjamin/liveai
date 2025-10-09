@@ -22,8 +22,8 @@ export const Header = () => {
   const navLinks = [
     { title: "About", sectionId: "about" },
     // { title: "Schedule", sectionId: "events" },
-    { title: "Team", sectionId: "" },
-    { title: "Successes", sectionId: "" },
+    // { title: "Team", sectionId: "" },
+    // { title: "Successes", sectionId: "" },
     { title: "Events", sectionId: "events" },
     { title: "Rules", sectionId: "rules" },
     { title: "FAQs", sectionId: "faqs" },
