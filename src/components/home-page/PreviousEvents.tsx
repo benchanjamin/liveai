@@ -20,7 +20,7 @@ export const PreviousEvents = () => {
                 </a>
               </div>
             </li>
-            <li className="text-2xl text-gray-700 text-center hover:text-blue-800 transition duration-300">
+            <li className="text-2xl text-gray-700 text-center hover:text-blue-400 transition duration-300">
                 <a href="/ivyplus/2025">
                     Ivy Plus 2025
                 </a>
