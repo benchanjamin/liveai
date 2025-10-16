@@ -20,8 +20,10 @@ export const PreviousEvents = () => {
                 </a>
               </div>
             </li>
-            <li className="text-2xl text-gray-700 text-center">
-              Ivy Plus 2025
+            <li className="text-2xl text-gray-700 text-center hover:text-blue-800 transition duration-300">
+                <a href="/ivyplus/2025">
+                    Ivy Plus 2025
+                </a>
               <div className="mt-2">
                 <a
                   href="https://liveai-ivyplus-2025.devpost.com"
