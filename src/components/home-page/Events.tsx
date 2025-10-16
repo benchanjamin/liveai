@@ -196,7 +196,7 @@ export const Events = () => {
                       d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                     />
                   </svg>
-                  <span>2026 Feb 20-22</span>
+                  <span>2026 February 20-22</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <svg
@@ -224,7 +224,7 @@ export const Events = () => {
               </div>
               <div>
                 <a
-                  href="/ivyplus/2026"
+                  href="/ivyplus"
                   className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
                 >
                   Learn More
