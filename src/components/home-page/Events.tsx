@@ -200,7 +200,7 @@ export const Events = () => {
               </div>
               <div>
                 <a
-                  href="/ivyplus"
+                  href="/ivyplus/2026"
                   className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
                 >
                   Learn More

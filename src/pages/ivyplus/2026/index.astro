@@ -1,0 +1,27 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import '@/styles/globals.css';
+import { Header } from '@/components/ivy-plus-2026/Header';
+import { Hero } from '@/components/ivy-plus-2026/Hero';
+import { About } from '@/components/ivy-plus-2026/About';
+// import { Schedule } from '@/components/ivy-plus-2026/CTAButtons';
+import { Sponsors } from '@/components/ivy-plus-2026/Sponsors';
+import { FAQ } from '@/components/ivy-plus-2026/FAQ';
+// import { Rules } from '@/components/ivy-plus-2026/Rules';
+// import { Prizes } from '@/components/ivy-plus-2026/Prizes';
+import { Contact } from '@/components/ivy-plus-2026/Contact';
+---
+
+<Layout>
+	<Header client:load/>
+	<main>
+		<Hero client:load/>
+		<About client:load/>
+		<!-- <Schedule client:load/> -->
+		<Sponsors client:load/>
+		<FAQ client:load/>
+		<!-- <Rules client:load/> -->
+		<!-- <Prizes client:load/> -->
+	</main>
+	<Contact client:load/>
+</Layout>
