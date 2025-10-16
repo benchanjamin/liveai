@@ -20,12 +20,12 @@ const scrollToSection = (sectionId: string) => {
 
 export const Header = () => {
   const navLinks = [
-    { title: "About", sectionId: "about" },
-    { title: "Schedule", sectionId: "events" },
+    { title: "About", sectionId: "ivyplus" },
+    // { title: "Schedule", sectionId: "events" },
     { title: "Sponsors", sectionId: "sponsors" },
     { title: "FAQs", sectionId: "faqs" },
-    { title: "Rules", sectionId: "rules" },
-    { title: "Prizes", sectionId: "prizes" },
+    // { title: "Rules", sectionId: "rules" },
+    // { title: "Prizes", sectionId: "prizes" },
     { title: "Contact", sectionId: "contact" },
   ];
 
