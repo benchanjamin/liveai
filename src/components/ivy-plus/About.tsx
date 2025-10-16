@@ -25,7 +25,7 @@ export const About = () => {
                 <p className="text-lg text-gray-700 leading-relaxed">
                   <strong>IVY PLUS</strong> is the East Coast line of LIVE AI
                   hackathons. <strong>LIVE AI Ivy Plus 2026</strong> will be hosted at
-                  Duke University, NYU, and Harvard University on February 20-22.
+                  Duke University, Harvard University, and NYU on February 20-22.
                 </p>
 
                 <p className="text-lg text-gray-700 leading-relaxed">

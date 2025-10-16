@@ -34,12 +34,12 @@ export const Hero = () => {
             Duke
           </span>
           <br />
-          <span className="text-xl md:text-2xl text-[#57068C] font-medium">
-            NYU
-          </span>
-          <br />
           <span className="text-xl md:text-2xl text-[#A51C30] font-medium">
             Harvard
+          </span>
+          <br />
+          <span className="text-xl md:text-2xl text-[#57068C] font-medium">
+            NYU
           </span>
         </div>
 
