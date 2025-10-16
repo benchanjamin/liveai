@@ -1,6 +1,6 @@
-import { HoverLink } from "@/components/header/ivy-plus/HoverLink";
-import { MobileHamburgerButton } from "@/components/header/ivy-plus/MobileHamburgerButton";
-import { MobileMenu } from "@/components/header/ivy-plus/MobileMenu";
+import { HoverLink } from "@/components/header/ivy-plus-2026/HoverLink";
+import { MobileHamburgerButton } from "@/components/header/ivy-plus-2026/MobileHamburgerButton";
+import { MobileMenu } from "@/components/header/ivy-plus-2026/MobileMenu";
 import LiveAILogo from "../../assets/LiveAiLogo.png";
 import LiveAICT from "../../assets/LiveAiCT.png";
 

@@ -1,4 +1,5 @@
 import LiveAI3DAnimation from "../../assets/2025Videos/Live AI 3D Animation Web.mp4";
+import SquareImage from "@/assets/2025Pages/square.png";
 
 import { Button } from "@/components/ui/button";
 import { socialLinks } from "./Contact";
@@ -9,7 +10,7 @@ export const Hero = () => {
       <div className="relative z-10 w-full text-center mt-20">
         {/* Video Container */}
         <div className="w-full">
-          <div className="max-w-[1200px] mx-auto px-4 md:mt-0">
+          <div className="max-w-[960px] mx-auto px-4 md:mt-0">
             <video
               className="w-full h-auto rounded-xl"
               autoPlay

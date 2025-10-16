@@ -36,12 +36,12 @@ export const MobileMenu = () => {
             )}>
             <div className="h-[calc(100vh-60px)] w-full container">
                 <div className="flex flex-col gap-4 p-4">
-                    <HoverLink onClick={() => handleClick("ivyplus")}>About</HoverLink>
-                    {/* <HoverLink onClick={() => handleClick("events")}>Schedule</HoverLink> */}
+                    <HoverLink onClick={() => handleClick("about")}>About</HoverLink>
+                    <HoverLink onClick={() => handleClick("events")}>Schedule</HoverLink>
                     <HoverLink onClick={() => handleClick("sponsors")}>Sponsors</HoverLink>
-                    <HoverLink onClick={() => handleClick("faqs")}>FAQs</HoverLink>
-                    {/* <HoverLink onClick={() => handleClick("rules")}>Rules</HoverLink> */}
-                    {/* <HoverLink onClick={() => handleClick("prizes")}>Prizes</HoverLink> */}
+                    <HoverLink onClick={() => handleClick("faqs")}>s</HoverLink>
+                    <HoverLink onClick={() => handleClick("rules")}>Rules</HoverLink>
+                    <HoverLink onClick={() => handleClick("prizes")}>Prizes</HoverLink>
                     <HoverLink onClick={() => handleClick("contact")}>Contact</HoverLink>
                 </div>
             </div>

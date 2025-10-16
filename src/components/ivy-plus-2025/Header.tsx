@@ -1,6 +1,6 @@
-import { HoverLink } from "@/components/header/ivy-plus/HoverLink";
-import { MobileHamburgerButton } from "@/components/header/ivy-plus/MobileHamburgerButton";
-import { MobileMenu } from "@/components/header/ivy-plus/MobileMenu";
+import { HoverLink } from "@/components/header/ivy-plus-2025/HoverLink";
+import { MobileHamburgerButton } from "@/components/header/ivy-plus-2025/MobileHamburgerButton";
+import { MobileMenu } from "@/components/header/ivy-plus-2025/MobileMenu";
 import LiveAILogo from "../../assets/LiveAiLogo.png";
 import LiveAICT from "../../assets/LiveAiCT.png";
 
@@ -20,12 +20,12 @@ const scrollToSection = (sectionId: string) => {
 
 export const Header = () => {
   const navLinks = [
-    { title: "About", sectionId: "ivyplus" },
-    // { title: "Schedule", sectionId: "events" },
+    { title: "About", sectionId: "about" },
+    { title: "Schedule", sectionId: "events" },
     { title: "Sponsors", sectionId: "sponsors" },
     { title: "FAQs", sectionId: "faqs" },
-    // { title: "Rules", sectionId: "rules" },
-    // { title: "Prizes", sectionId: "prizes" },
+    { title: "Rules", sectionId: "rules" },
+    { title: "Prizes", sectionId: "prizes" },
     { title: "Contact", sectionId: "contact" },
   ];
 

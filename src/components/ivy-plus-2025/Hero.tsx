@@ -27,20 +27,23 @@ export const Hero = () => {
         {/* Main Text */}
         <div className="space-y-4 px-4">
           <span className="text-xl md:text-2xl text-gray-600 font-medium">
-            2026 February 20-22
-          </span>
-          <br />
-          <span className="text-xl md:text-2xl text-[#00539B] font-medium">
-            Duke
+            2025 February 21-23
           </span>
           <br />
           <span className="text-xl md:text-2xl text-[#A51C30] font-medium">
-            Harvard
+            Harvard University
           </span>
           <br />
-          <span className="text-xl md:text-2xl text-[#57068C] font-medium">
-            NYU
+          <span className="text-xl md:text-2xl text-[#00539B] font-medium">
+            Duke University
           </span>
+          <br />
+          <div className="mt-6 inline-flex items-center justify-center gap-3 border-t border-gray-200 pt-4">
+            <span className="text-xs uppercase tracking-wider text-gray-400">Affiliate Campus</span>
+            <span className="text-sm md:text-base text-[#759A48] font-medium tracking-wide">
+              Universal AI University (Mumbai)
+            </span>
+          </div>
         </div>
 
         {/* Buttons */}
