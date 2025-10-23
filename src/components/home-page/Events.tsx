@@ -233,8 +233,6 @@ export const Events = () => {
             </div>
           </div>
 
-          {/*
-          Lone Star 2025 section commented out due to tornado cancellation - no onsites held
           <div className="flex flex-col md:flex-row items-center gap-8 p-6 bg-white rounded-lg shadow-lg">
             <div className="md:w-1/3 order-2 md:order-1 h-64">
               <img
@@ -317,7 +315,6 @@ export const Events = () => {
               </div>
             </div>
           </div>
-          */}
         </div>
       </div>
     </section>
