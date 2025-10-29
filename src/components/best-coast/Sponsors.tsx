@@ -20,6 +20,8 @@ import AIFN from "@/assets/2025SponsorsPartnersLogos/AIFN.png";
 import ScripLedger from "@/assets/2025SponsorsPartnersLogos/ScripLedger.png";
 import HODP from "@/assets/2025SponsorsPartnersLogos/HODP.png";
 import DAML from "@/assets/2025SponsorsPartnersLogos/DAML.png";
+import SENSA from "@/assets/2025SponsorsPartnersLogos/SENSA-Logo.png";
+import HTC from "@/assets/2025SponsorsPartnersLogos/HTC-Logo.jpg";
 
 export const Sponsors = () => {
   return (
@@ -30,7 +32,7 @@ export const Sponsors = () => {
           Organizing Hosts
         </h2>
         <div className="max-w-5xl mx-auto space-y-12 mb-20">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-full">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center max-w-full">
             <a
               href="https://linkedin.com/company/techtreeroot"
               target="_blank"
@@ -52,6 +54,30 @@ export const Sponsors = () => {
               <img
                 src={Innomed.src}
                 alt="Innomed"
+                className="w-full h-auto max-w-[200px] mx-auto transition-opacity duration-300 hover:opacity-80"
+              />
+            </a>
+            <a
+              href="https://stanfordsensa.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-transform duration-300 hover:scale-105"
+            >
+              <img
+                src={SENSA.src}
+                alt="Stanford SENSA"
+                className="w-full h-auto max-w-[200px] mx-auto transition-opacity duration-300 hover:opacity-80"
+              />
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-transform duration-300 hover:scale-105"
+            >
+              <img
+                src={HTC.src}
+                alt="Berkeley Haas Tech Club"
                 className="w-full h-auto max-w-[200px] mx-auto transition-opacity duration-300 hover:opacity-80"
               />
             </a>
