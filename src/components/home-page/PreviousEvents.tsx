@@ -35,6 +35,8 @@ export const PreviousEvents = () => {
                 </a>
               </div>
             </li>
+            {/* Lone Star 2025 commented out due to tornado cancellation - no onsites held */}
+            {/*
             <li className="text-2xl text-gray-700 text-center">
               Lone Star 2025
               <div className="mt-2">
@@ -48,6 +50,7 @@ export const PreviousEvents = () => {
                 </a>
               </div>
             </li>
+            */}
           </ul>
         </div>
       </div>
