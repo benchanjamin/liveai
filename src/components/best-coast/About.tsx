@@ -65,7 +65,7 @@ export const About = () => {
               <div className="space-y-4">
                 <p className="text-lg text-gray-700 leading-relaxed">
                   <strong>BEST COAST</strong> is the West Coast line of LIVE AI
-                  hackathons. <strong>LIVE AI Best Coast 2025</strong> will be hosted at
+                  hackathons. <strong>LIVE AI Best Coast 2025</strong> will be at
                   Berkeley, UCLA, UCSD, and Stanford on November 7-9.
                 </p>
 
