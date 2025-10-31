@@ -29,7 +29,7 @@ export const Sponsors = () => {
       <div className="container mx-auto px-4">
         {/* Host Campuses */}
         <h2 className="text-4xl font-bold text-gray-900 text-center mb-12 underline">
-          Organizing Hosts
+          Organizers
         </h2>
         <div className="max-w-5xl mx-auto space-y-12 mb-20">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center max-w-full">
